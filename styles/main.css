@@ -1,0 +1,36 @@
+html {
+    background-color: darkslategrey;
+    color: white;
+    font-size: 16px;
+}
+.section-divisor{
+    border-bottom: 4px solid cadetblue;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+
+}
+.container-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    background-color: cadetblue;
+    border-radius: 50px;    
+    margin: 10px;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color:bisque;
+}
