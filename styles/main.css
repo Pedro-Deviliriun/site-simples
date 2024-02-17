@@ -2,10 +2,11 @@ html {
     background-color: darkslategrey;
     color: white;
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .section-divisor{
-    border-bottom: 4px solid cadetblue;
-    width: 1000px;
+    border-bottom: 2px solid cadetblue;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 200px;
@@ -21,7 +22,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 60px;
+    height: 10px;
     background-color: cadetblue;
     border-radius: 50px;    
     margin: 10px;
@@ -31,6 +32,33 @@ a {
     text-decoration: none;
     color: white;
 }
-a:hover {
+a.site-link:hover {
     color:bisque;
+}
+#personal-photo{
+    display:flex;
+    justify-content: center;
+    border-radius: 5000px;
+    width: 14rem;
+    height: 14rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.link-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-image {
+    height: 4rem;
+    width: 4rem;
+    margin: 10px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
